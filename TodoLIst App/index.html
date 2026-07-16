@@ -1,24 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TodoList App</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-   <div class="container">
-        <div class="todo-app">
-            <h2>TodoList App <img src="images/icon.png"></h2>
-            <div class="row">
-                <input type="text" id="input-box" placeholder="Add Your Text">
-                <button onclick="addTask()">Add</button>
-            </div>
-            <ul id="list-container">
-                <!-- <li class="checked">Item 1</li> -->
-            </ul>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>TodoList App <img src="images/icon.png" /></h2>
+        <div class="row">
+          <input
+            type="text"
+            id="input-box"
+            placeholder="Enter Your Todo Press Enter or Click Add"
+          />
+          <button onclick="addTask()">Add</button>
         </div>
-   </div> 
+        <ul id="list-container"></ul>
+      </div>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
